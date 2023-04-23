@@ -1,0 +1,181 @@
+body {
+	background-color: rgb(245,238,220);
+}
+
+.wrapper {
+	width: 65%;
+	margin: 0 auto;
+}
+
+p {
+	font-family: "semplicitapro",arial,sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+header p {
+	width: 25%;
+}
+
+header img {
+	float: left;
+}
+
+nav {
+	width: 75%;
+	position: relative;
+	left: 25%;
+}
+
+nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	font-family: "semplicitapro",arial,sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-style: normal;
+	padding: 30px 20px 0px 15px;
+	float: left;
+}
+
+nav a:link {
+		color: rgb(45, 104, 145);
+		text-decoration: none;
+}
+
+nav a:visited {
+		color: rgb(45, 104, 145);
+		text-decoration: none;
+}
+
+nav a:hover {
+		color: rgb(220, 76, 26);
+		text-decoration: none;
+}
+
+main {
+	background-image: url("../images/about_spread.jpg");
+	background-repeat: no-repeat;
+	height: 250px; 
+	width: 1100px; 
+	clear: both;
+}
+
+h1,h2 {
+	text-decoration: none;
+	font-family: "semplicitapro",arial,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+article {
+	padding: 28px;
+	float: left;
+}
+
+article img {
+	width: 300px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px 5px 5px 5px;	
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+
+article p, h2 {
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+article a:link {
+		color: rgb(45, 104, 145);
+		text-decoration: none;
+}
+
+article a:visited {
+		color: rgb(45, 104, 145);
+		text-decoration: none;
+}
+
+article a:hover {
+		color: rgb(220, 76, 26);
+		text-decoration: none;
+}
+
+section h1 {
+	text-align: center;
+}
+
+form {
+	position: relative;
+	top: 50px; 
+	width: 80%;
+	padding: 30px;
+	margin: 50px;
+	background-color: rgb(245,238,220);
+	font-family: "semplicitapro",arial,sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 2.5;
+	float: left;
+}
+
+input[type=text], input[type=email], input[type=textarea] {
+	padding: 5px 5px;
+	margin: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+input[type=checkbox] {
+	height: 20px;
+	width: 20px;
+	margin: 10px;
+}
+
+input[type=submit], input[type=reset] {
+	font-family: "regina", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	background: rgb(45, 104, 145);
+	margin: 20px 30px 50px 0px;
+	padding: 8px 15px 8px 15px;
+	border-radius: 20px;
+	border: 0px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button {
+	font-family: "regina", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	background: rgb(45, 104, 145);
+	margin: 0px 0px 50px 0px;
+	padding: 8px 15px 8px 15px;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	clear: both;
+}
