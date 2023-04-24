@@ -100,17 +100,17 @@ article p, h2 {
 
 article a:link {
 		color: rgb(45, 104, 145);
-		text-decoration: none;
+		text-decoration: underline;
 }
 
 article a:visited {
 		color: rgb(45, 104, 145);
-		text-decoration: none;
+		text-decoration: underline;
 }
 
 article a:hover {
 		color: rgb(220, 76, 26);
-		text-decoration: none;
+		text-decoration: underline;
 }
 
 section h1 {
