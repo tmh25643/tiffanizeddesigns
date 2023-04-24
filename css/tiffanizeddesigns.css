@@ -152,7 +152,13 @@ form {
 	list-style-position: inside;
 }
 
-.bio p, ul {
+.bio p {
+	position: relative;
+	margin-left: 225px;
+	color: rgb(45, 104, 145);
+}
+
+.bio ul {
 	position: relative;
 	margin-left: 200px;
 	color: rgb(45, 104, 145);
