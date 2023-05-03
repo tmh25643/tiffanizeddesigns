@@ -1,4 +1,5 @@
 body {
+	background-image: url("../images/bgtexture.jpg");
 	background-color: rgb(245,238,220);
 }
 
@@ -71,6 +72,7 @@ h1,h2 {
 	font-family: "semplicitapro",arial,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: rgb(45, 104, 145);
 }
 
 article {
@@ -123,6 +125,7 @@ form {
 	width: 80%;
 	padding: 30px;
 	margin: 50px;
+	background-image: url("../images/bgtexture.jpg");
 	background-color: rgb(245,238,220);
 	font-family: "semplicitapro",arial,sans-serif;
 	font-size: 1em;
@@ -138,6 +141,7 @@ form {
 	width: 80%;
 	padding: 30px;
 	margin: 50px;
+	background-image: url("../images/bgtexture.jpg");
 	background-color: rgb(245,238,220);
 	font-family: "semplicitapro",arial,sans-serif;
 	font-size: 1em;
@@ -151,7 +155,7 @@ form {
 	list-style-type: square;
 	list-style-position: inside;
 }
-
+	
 .bio p {
 	position: relative;
 	margin-left: 225px;
@@ -177,6 +181,42 @@ form {
 .bio a:hover {
 		color: rgb(220, 76, 26);
 		text-decoration: underline;
+}
+
+.services {
+	float: left;
+	width: 40%;
+}
+
+.services p {
+	position: relative;
+	margin-left: 30px;
+	color: rgb(45, 104, 145);
+}
+
+.services ul {
+	position: relative;
+	margin-left: 25px;
+	color: rgb(45, 104, 145);
+}
+
+.services a:link {
+		color: rgb(45, 104, 145);
+		text-decoration: underline;
+}
+
+.services a:visited {
+		color: rgb(45, 104, 145);
+		text-decoration: underline;
+}
+
+.services a:hover {
+		color: rgb(220, 76, 26);
+		text-decoration: underline;
+}
+
+.servicesright {
+	float: right;
 }
 
 .aboutme {
